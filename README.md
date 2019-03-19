@@ -1,7 +1,8 @@
-# sdc
+## sdc
+<pre>
 A scaled down version of the self-driving system using  OpenCV. The system comprises of -    
 • Raspberry Pi with a webcam and an ultrasonic sensor as inputs,         
-    ◦ Steering using move in sdcar.py        
+  	◦ Steering using move in sdcar.py        
     ◦ Stop sign detection using houghcircles and colour intensities         
     ◦  Front collision avoidance using an ultrasonic sensor     
 •   l298N motor controller                   
@@ -25,5 +26,5 @@ A scaled down version of the self-driving system using  OpenCV. The system compr
      and left for this:     
        • make the 3 zones of square regions the right , left, upper(for forward)    
        • if the right zone is white and the other two are blue then the sum of RGB colour intensities in the right zone will be obviously greater than the other two zones then the sign is right similarly for others.                 
-       
+</pre>       
        
