@@ -1,8 +1,8 @@
 ### A scaled down version of the self-driving system using  OpenCV
 
 The system comprises of -    
-• Raspberry Pi with a webcam and an ultrasonic sensor as inputs,
-  -Steering using move in sdcar.py        
+- Raspberry Pi with a webcam and an ultrasonic sensor as inputs,
+  - Steering using move in sdcar.py        
     ◦ Stop sign detection using houghcircles and colour intensities         
     ◦  Front collision avoidance using an ultrasonic sensor     
 •   l298N motor controller                   
