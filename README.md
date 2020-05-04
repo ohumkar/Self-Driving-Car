@@ -23,6 +23,8 @@ The system comprises of -
   stop sign.                  
   - if the dominant colour in a square region around the circle is blue then there are 5 cases left, right, forward, forward and right or forward and left for this:     
     - make the 3 zones of square regions the right , left, upper(for forward)    
-    - if the right zone is white and the other two are blue then the sum of RGB colour intensities in the right zone will be obviously greater than the other two zones then the sign is right similarly for others.                 
+    - if the right zone is white and the other two are blue then the sum of RGB colour intensities in the right zone will be obviously greater than the other two zones then the sign is right similarly for others.  
+
+Working Model : https://drive.google.com/drive/u/0/folders/1f9eJIs4ksZifZLUeAl-CM_1WS04smbpB
     
        
