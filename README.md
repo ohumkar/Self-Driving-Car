@@ -1,4 +1,5 @@
 ### A scaled down version of the self-driving system using  OpenCV
+This was my first ever project developed as a part of Srishti '19 (Technical exhibtion at IIT Roorkee) </br>
 
 The system comprises of -    
 - Raspberry Pi with a webcam and an ultrasonic sensor as inputs,
@@ -25,6 +26,9 @@ The system comprises of -
     - make the 3 zones of square regions the right , left, upper(for forward)    
     - if the right zone is white and the other two are blue then the sum of RGB colour intensities in the right zone will be obviously greater than the other two zones then the sign is right similarly for others.  
 
+### Challenges faced :
+- Given that a deep learning based approach was not used, quite a few heuristics and manual tweaks were performed
+- 
 Working Model : https://drive.google.com/drive/u/0/folders/1f9eJIs4ksZifZLUeAl-CM_1WS04smbpB
     
        
