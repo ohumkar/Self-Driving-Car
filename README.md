@@ -27,11 +27,11 @@ The system comprises of -
     - if the right zone is white and the other two are blue then the sum of RGB colour intensities in the right zone will be obviously greater than the other two zones then the sign is right similarly for others.  
 
 ### Challenges faced :
-- Given that a deep learning based approach was not used, quite a few heuristics and manual tweaks were performed
+- Given that a deep learning based approach was not used, quite a few heuristics and manual tweaks were performed while selecting various thesholding parameters
 - There was quite a noticable lag from the webcam while reading images which resulted in a low framerate
 - The resulting low frame rate caused an offset where a new frame was read while the processing was previous frame was still going. This caused a delay in the decisions of the car often causing it to deviate from the track
 - We tried to address this problem temporarily by shifting to a move and stop driving, where the car would drive in steps instead of a continous manner
-- 
+
 Working Model : https://drive.google.com/drive/u/0/folders/1f9eJIs4ksZifZLUeAl-CM_1WS04smbpB
     
        
